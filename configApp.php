@@ -3,13 +3,13 @@
 /* Go to My Apps dashboard: https://developers.mercadolibre.com.mx/apps/home, and get the information you need in order to the following enviroment variables */
 
 /* Your Application Id */
-$appId = getenv('App_ID');
+$appId = getenv('3457225608424475');
 
 /* Your Secret Key */
-$secretKey = getenv('Secret_Key');
+$secretKey = getenv('Dq4T8mrg6NWmtxoednuS7FDXSqNPQIE7');
 
 /* The Redirect url */
-$redirectURI = getenv('Redirect_URI');
+$redirectURI = getenv('https://www.mercadolibre.com.mx/');
 
 /* The site id of the country where your application will work.
 If you don't know your site_id go to our sites resources: https://api.mercadolibre.com/sites  */
