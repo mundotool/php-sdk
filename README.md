@@ -10,13 +10,13 @@
 <h4 align="center">This is the official PHP SDK for MercadoLibre's Platform.</h4>
 
 <p align="center">
-  <a href="https://heroku.com/deploy?template=https://github.com/mundotool/php-sdk">
+  <a href="https://heroku.com/deploy?template=https://github.com/mercadolibre/php-sdk">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://heroku.com/deploy?template=https://github.com/mundotool/php-sdk">
+  <a href="https://heroku.com/deploy?template=https://github.com/mercadolibre/php-sdk">
     <img src="https://user-images.githubusercontent.com/1153516/29859906-9453b50c-8d3a-11e7-88b6-ab354d4a4908.png">
   </a>
 </p>
@@ -25,7 +25,7 @@
 ## How do I install it?
 
        clone repository
-       https://github.com/mundotool/php-sdk.git
+       https://github.com/mercadolibre/php-sdk.git
 
 ## How do I use it?
 
