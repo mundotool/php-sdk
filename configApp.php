@@ -1,6 +1,6 @@
 <?php
 
-/* Go to My Apps dashboard: https://developers.mercadolibre.com.ar/apps/home, and get the information you need in order to the following enviroment variables */
+/* Go to My Apps dashboard: https://developers.mercadolibre.com.mx/apps/home, and get the information you need in order to the following enviroment variables */
 
 /* Your Application Id */
 $appId = getenv('App_ID');
