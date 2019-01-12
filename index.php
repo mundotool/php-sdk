@@ -56,7 +56,7 @@ $appName = explode('.', $domain)[0];
                 </div>
                 <div class="col-md-6">
                     <h3>Next steps</h3>
-                    <p>To start, <a href="https://developers.mercadolibre.com.ar/apps/home">go to your My Apps dashboard</a> and update your application's <b>redirect URI</b> to match the one Heroku is running: <br />
+                    <p>To start, <a href="https://developers.mercadolibre.com.mx/apps/home">go to your My Apps dashboard</a> and update your application's <b>redirect URI</b> to match the one Heroku is running: <br />
                         <code><?php echo 'https://'.$domain; ?></code>.
                         <br />
                         <br /> If you deployed this app by the Heroku Button, you need to clone this aplication to your computer by running the following on a command line shell:
@@ -74,7 +74,7 @@ $appName = explode('.', $domain)[0];
                     Check the following examples, they will help you to start working with our API!
                 </p>
                 <p>
-                    Note that these examples work for MLB(Brasil) by default. If you'd like to try them in your own country, please, <a href="https://github.com/mercadolibre/php-sdk/blob/master/configApp.php#L16">update this line</a> in your project, with
+                    Note that these examples work for MLM(Mexico) by default. If you'd like to try them in your own country, please, <a href="https://github.com/mercadolibre/php-sdk/blob/master/configApp.php#L16">update this line</a> in your project, with
                     your own <b>$site_id</b> before executing them.
                 </p>
             </div>
@@ -136,7 +136,7 @@ $appName = explode('.', $domain)[0];
                 <div class="col-md-6">
                     <h3>Publish an Item</h3>
                     <p>
-                        This is a example of how to list an item in <b>MLB</b> (Brasil).
+                        This is a example of how to list an item in <b>MLM</b> (Mexico).
                        <br /> <b>You need to be authenticated to make it work.</b>
                        <br /> To be able to list an item in another country, <a href="https://github.com/mercadolibre/php-sdk/blob/master/examples/example_list_item.php">please update this file</a>, with values according to the site Id where your app works, like <b>category_id</b> and <b>currency</b>.
                      <br />
@@ -145,7 +145,7 @@ $appName = explode('.', $domain)[0];
 "title" => "Item De Teste - Por Favor, Não Ofertar! --kc:off",
         "category_id" => "MLB1227",
         "price" => 10,
-        "currency_id" => "BRL",
+        "currency_id" => "MXN",
         "available_quantity" => 1,
         "buying_mode" => "buy_it_now",
         "listing_type_id" => "bronze",
@@ -191,7 +191,7 @@ $appName = explode('.', $domain)[0];
                             "title" => "Item De Teste - Por Favor, Não Ofertar! --kc:off",
         "category_id" => "MLB1227",
         "price" => 10,
-        "currency_id" => "BRL",
+        "currency_id" => "MXN",
         "available_quantity" => 1,
         "buying_mode" => "buy_it_now",
         "listing_type_id" => "bronze",
